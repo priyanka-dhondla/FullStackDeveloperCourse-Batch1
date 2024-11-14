@@ -1,0 +1,20 @@
+.heading1{
+    color: green;
+  }
+  
+  .box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px; */
+    margin: 30px;
+    
+  }

@@ -1,0 +1,7 @@
+Task5:
+1.create a simple div with an id "box". add some text content inside the div.set its background color to blue.
+2.create 3 headings with h1,h2,&h3.give them all a class "heading" & set color of "heading" to red
+3.create a button & set its background color to:
+a.green using css stylesheet
+b.blue using <style> tag
+c.pink using inline style

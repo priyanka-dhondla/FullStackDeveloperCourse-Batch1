@@ -1,0 +1,42 @@
+body{
+    padding: 25px;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  .italic{
+    background-color: yellow;
+  }
+  
+  .button{
+    background-color: #3260a8;
+    height: 30px;
+    width: 70px;
+    color: white;
+    border: #3260a8;
+    border-radius: 10px;
+  }
+  .red{
+    background-color: #a83296;
+  }
+  .green{
+    background-color: green;
+  }
+  
+  table{
+    padding: 20px;
+    width: 300px;
+    border: 1px solid black;
+    
+  }
+  td,tr,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .photo{
+    height: 300px;
+    width: 300px;
+  }
+  
+  
