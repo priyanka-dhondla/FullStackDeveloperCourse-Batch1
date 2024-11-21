@@ -6,6 +6,7 @@
 //var -function scoped
 
 //let,const are block scoped variables
+
 // block scoped Variable
 
 function test(){
