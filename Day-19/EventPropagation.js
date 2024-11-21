@@ -19,13 +19,15 @@ function bodyHandler(){
 
 //Event Bubbling : bottom to top
 
-// parentDiv.addEventListener("click",parentHandler);
-// childDiv.addEventListener("click",childHandler);
-// body.addEventListener("click",bodyHandler);
+//By default it shoeld taken as False
+
+parentDiv.addEventListener("click",parentHandler,false);
+childDiv.addEventListener("click",childHandler,false);
+body.addEventListener("click",bodyHandler,false);
 
 
 //Event Capturing : Top to Bottom
 
-parentDiv.addEventListener("click",parentHandler,true);
-childDiv.addEventListener("click",childHandler,true);
-body.addEventListener("click",bodyHandler,true);
+// parentDiv.addEventListener("click",parentHandler,true);
+// childDiv.addEventListener("click",childHandler,true);
+// body.addEventListener("click",bodyHandler,true);
