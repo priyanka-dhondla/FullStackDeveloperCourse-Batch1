@@ -1,3 +1,13 @@
+
+//Event Propagation: It describes how events travel through the DOM tree when a user interacts with an Element.
+
+//2 Ways
+
+//1.Event Bubbling
+
+//2. Event Capturing
+
+
 const parentDiv=document.getElementById("parent");
 const childDiv=document.getElementById("child");
 
