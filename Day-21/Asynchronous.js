@@ -16,7 +16,7 @@ console.log("Fifth");
 console.log("Second code");
 
 
-//Callback function
+//Callback function : Callback is function that takes an argument of another function
 
 // setTimeout(()=>{
 //     console.log("Third code");
