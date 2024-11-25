@@ -19,7 +19,7 @@ function test(){
         console.log(`the value of b is ${b}`)
         console.log(`Value is ${y}`)
     }
-    console.log(`Value is ${y}`)
+    // console.log(`Value is ${y}`)
     console.log(`Welcome ${z}`)
     // console.log(`the value of b is ${b}`)
 }
@@ -63,42 +63,66 @@ console.log(arrowFunc(30,20));
 //== ---> loosly equal to
 //=== ---> strictly equal to 
 
-console.log(2+2);//4
+// console.log(2+2);//4
 
-console.log(2+"2");//22
+// console.log(2+"2");//22
 
-console.log("Hello"+2) //Hello2
+// console.log("Hello"+2) //Hello2
 
-console.log(100+100) //200
+// console.log(100+100) //200
 
-console.log(100+"100") //100100
+// console.log(100+"100") //100100
 
-console.log("234"+12) //23412
+// console.log("234"+12) //23412
 
-console.log(2==2)//true
+// console.log(2==2)//true
 
-console.log(2=="2") //true
+// console.log(2=="2") //true
 
-console.log(2===2)//true
+// console.log(2===2)//true
 
-console.log(2==="2") //False
+// console.log(2==="2") //False
 
-console.log(3==4) //False
+// console.log(3==4) //False
 
-console.log(100==10)//False
+// console.log(100==10)//False
 
-console.log(12==12)  //True
+// console.log(12==12)  //True
 
-console.log("12"===12)//False
+// console.log("12"===12)//False
+
+// console.log(true==false)//false
+
+// console.log(true==true)//true
+
+// console.log(false==true)//false
+
+// console.log(true===true)//true
+
+// console.log(false===true)//false
+
+// console.log(1==0)//false
+
+console.log(2+2) //4
+
+console.log(2+"2")//22
+
+console.log("100"+2)//1002
+
+console.log(2+"hello")//2hello
+
+console.log(2==2);//true
+
+console.log(2=="2")//true
+
+console.log(2==="2");//false
+
+console.log("hello"=="hello")//true
+
+console.log("hello"=="Hello")//false
+
+console.log("120"=="102")//false
 
 console.log(true==false)//false
 
-console.log(true==true)//true
-
-console.log(false==true)//false
-
-console.log(true===true)//true
-
-console.log(false===true)//false
-
-console.log(1==0)//false
+console.log(true=="1")//false
